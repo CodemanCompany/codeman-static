@@ -4,4 +4,4 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <!-- Styles -->
-<link href="styles.min.css" rel="stylesheet" />
+<link href="css/styles.min.css" rel="stylesheet" />
