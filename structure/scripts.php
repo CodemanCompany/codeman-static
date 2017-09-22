@@ -1,7 +1,7 @@
 <!-- Scripts -->
 <script async="async" src="https://www.google.com/recaptcha/api.js"></script>
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
 
 <!-- Google Analytics -->

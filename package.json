@@ -1,0 +1,23 @@
+{
+  "name": "codeman-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodemanCompany/codeman-static.git"
+  },
+  "author": "Codeman Company",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/CodemanCompany/codeman-static/issues"
+  },
+  "homepage": "https://github.com/CodemanCompany/codeman-static#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
