@@ -5,15 +5,24 @@ $data = ( object ) [
 	'title'			=>	null,
 ];
 
+if( empty( $data -> file[ 0 ] ) )
+	$data -> file[ 0 ] = 'index';
+
 switch( $data -> file[ 0 ] ) {
 	case 'about-us':
 		$data -> title = 'About Us';
 		$data -> description = 'Description';
 		break;
-	
-	default:
+
+	case 'index':
 		$data -> title = 'Index';
 		$data -> description = 'Description';
+		break;
+	
+	default:
+		header( 'HTTP/1.0 404 Not Found' );
+		include '404.html';
+		exit;
 }	// end switch
 ?>
 <!DOCTYPE html>
@@ -27,7 +36,7 @@ switch( $data -> file[ 0 ] ) {
 	<body>
 		<header><?php include 'structure/header.php';?></header>
 		<nav><?php include 'structure/navigation.php';?></nav>
-		<main><?php include 'structure/content/' . ( empty( $data -> file[ 0 ] ) ? 'index' : $data -> file[ 0 ] ) . '.php';?></main>
+		<main><?php include 'structure/content/' . $data -> file[ 0 ] . '.php';?></main>
 		<footer><?php include 'structure/footer.php';?></footer>
 
 		<?php include 'structure/scripts.php';?>
