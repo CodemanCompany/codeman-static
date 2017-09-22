@@ -1,12 +1,12 @@
 <?php
 $data = ( object ) [
 	'description'	=>	null,
-	'file'			=>	basename( $_SERVER[ 'SCRIPT_NAME' ] ),
+	'file'			=>	explode( '/', trim( $_SERVER[ 'REQUEST_URI' ], '/' ) ),
 	'title'			=>	null,
 ];
 
-switch( $data -> file ) {
-	case 'about-us.php':
+switch( $data -> file[ 0 ] ) {
+	case 'about-us':
 		$data -> title = 'About Us';
 		$data -> description = 'Description';
 		break;
@@ -27,7 +27,7 @@ switch( $data -> file ) {
 	<body>
 		<header><?php include 'structure/header.php';?></header>
 		<nav><?php include 'structure/navigation.php';?></nav>
-		<main><?php include 'structure/content/' . $data -> file;?></main>
+		<main><?php include 'structure/content/' . ( empty( $data -> file[ 0 ] ) ? 'index' : $data -> file[ 0 ] ) . '.php';?></main>
 		<footer><?php include 'structure/footer.php';?></footer>
 
 		<?php include 'structure/scripts.php';?>

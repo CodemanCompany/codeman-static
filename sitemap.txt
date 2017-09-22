@@ -1,2 +1,2 @@
-http://www.example.com/index.php
-http://www.example.com/about-us.php
+http://www.example.com/index/
+http://www.example.com/about-us/
