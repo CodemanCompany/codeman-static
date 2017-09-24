@@ -2,6 +2,8 @@
 <meta charset="utf-8" />
 <meta name="description" content="<?php echo $data -> description;?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="theme-color" content="" />
+
 
 <!-- <meta property="fb:app_id" content="" /> -->
 <meta property="og:type" content="website" />
