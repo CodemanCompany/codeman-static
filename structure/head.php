@@ -4,7 +4,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta name="theme-color" content="" />
 
-
 <!-- <meta property="fb:app_id" content="" /> -->
 <meta property="og:type" content="website" />
 <meta property="og:description" content="<?php echo $data -> description;?>" />
@@ -17,3 +16,17 @@
 
 <!-- Favicon -->
 <link href="/img/favicon.png" rel="shortcut icon" />
+
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "Organization",
+	"name": "Name Company",
+	"url": "http://www.example.com/",
+	"sameAs": [
+		"https://www.facebook.com/",
+		"https://twitter.com/",
+		"https://www.linkedin.com/"
+	]
+}
+</script>
