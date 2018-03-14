@@ -1,7 +1,10 @@
 <!-- Scripts -->
 <script async="async" src="https://www.google.com/recaptcha/api.js"></script>
-<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+<script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 <script src="/js/main.js"></script>
 
 <!-- Google Analytics -->
