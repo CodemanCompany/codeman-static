@@ -8,6 +8,10 @@ $data = ( object ) [
 if( empty( $data -> file[ 0 ] ) )
 	$data -> file[ 0 ] = 'index';
 
+// Only for Dashboard
+// define( 'COMPONENT', ucfirst( $data -> file[ 1 ] ?? 'Index' ) . 'Component' . '.js' );
+// define( 'FILE', $data -> file[ 1 ] ?? null );
+
 switch( $data -> file[ 0 ] ) {
 	case 'about-us':
 		$data -> title = 'About Us';
