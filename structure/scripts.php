@@ -5,6 +5,10 @@
 <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+<!-- SweetAlert2 -->
+<script src="/node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+<link href="/node_modules/sweetalert2/dist/sweetalert2.min.css" rel="stylesheet" />
+
 <script src="/js/main.js"></script>
 
 <!-- Google Analytics -->
