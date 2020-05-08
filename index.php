@@ -1,7 +1,8 @@
 <?php
+$url = strtok( $_SERVER[ 'REQUEST_URI' ], '?' );
 $data = ( object ) [
 	'description'	=>	null,
-	'file'			=>	explode( '/', trim( $_SERVER[ 'REQUEST_URI' ], '/' ) ),
+	'file'			=>	explode( '/', trim( $url, '/' ) ),
 	'title'			=>	null,
 ];
 
