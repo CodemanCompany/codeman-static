@@ -1,0 +1,36 @@
+@import url( 'https://fonts.googleapis.com/css?family=Open+Sans:300,700' );
+
+@font-face {
+	font-family: 'Open Sans Bold';
+	src: url( '#{$fonts}/OpensSans/OpenSans-Bold.ttf' ) format( 'ttf' );
+	// font-weight: 700;
+	// font-style: 700;
+}
+
+@font-face {
+    font-family: "Proxima Nova Bold";
+    // /font-weight: bold;/
+    src: url( '#{$fonts-desdezero}/proxima-nova-bold.otf' ) format("opentype"),
+    /* url('../fonts/gt-america/gt-america-standard-regular.ttf') format("truetype"),
+    url('../fonts/gt-america/gt-america-standard-medium.eot') format("embedded-opentype"); */
+    // url('../fonts/gt-america/GT-America-Compressed-Medium.OTF') format("opentype");
+}
+
+@font-face {
+    font-family: "Proxima Nova Light";
+    src: url( '#{$fonts-desdezero}/proxima-nova-light.otf' ) format("opentype"),  
+}
+
+@font-face {
+    font-family: "Proxima Nova Semibold";
+    src: url( '#{$fonts-desdezero}/proxima-nova-semibold.otf' ) format("opentype"),    
+}
+
+@font-face {
+    font-family: "Bebas Neue Regular";
+    src: url( '#{$fonts-desdezero}/bebas-neue-regular.ttf' ) format("truetype"),    
+}
+@font-face {
+    font-family: "Bebas Neue Light";
+    src: url( '#{$fonts-desdezero}/BebasNeue Light.otf' ) format("truetype"),    
+}
