@@ -1,0 +1,46 @@
+@media #{$desktop-large},
+#{$desktop},
+#{$tablet} {
+	nav{
+		background-color: #f56691 !important;
+	}
+	body > nav {
+		ul{
+			display: block !important;
+			li{
+				float: left;
+			}
+		}
+		a{
+			color: white !important;
+			font-size: 10px !important;
+		}
+		
+		background-color: #f56691 !important;
+		.movil-menu{
+			display: none;
+		}
+	}
+}
+
+@media #{$tablet} {
+	body > nav {
+		ul{
+			display: block !important;
+			li{
+				float: none;
+			}
+		}
+		a{
+			color: white !important;
+			font-size: 22px !important;
+		}
+		.movil-menu{
+			display: contents;
+		}
+		.navbar-toggler{
+			border: var(--bs-border-width) solid rgb(255 255 255) !important;
+		}	
+	}
+}
+

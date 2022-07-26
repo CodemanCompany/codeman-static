@@ -9,6 +9,7 @@
 <link href="/node_modules/sweetalert2/dist/sweetalert2.min.css" rel="stylesheet" />
 
 <script src="/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
 <!-- Codeman: Contact Kit -->
 <!-- <script src="/js/contact.js"></script> -->

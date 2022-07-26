@@ -1,0 +1,57 @@
+@media #{$desktop-large},
+#{$desktop},
+#{$tablet},
+#{$phone} {
+	aside {
+		#menu {
+			animation-duration: 0.4s;
+			background: $brand-primary;
+			display: none;
+			position: fixed;
+			right: 0;
+			top: 0;
+			transition: height 0.15s ease-out;
+			width: 75%;
+			z-index: 10;
+			
+			-webkit-box-shadow: 0 0 5px 0px rgba(0,0,0,.75);
+			-moz-box-shadow: 0 0 5px 0px rgba(0,0,0,.75);
+			box-shadow: 0 0 5px 0px rgba(0,0,0,.75);
+
+			.close {
+				color: white;
+				font-size: 2em;
+				opacity: 1;
+				padding: 15px 20px;
+			}
+
+			ul {
+				@include clean;
+				clear: left;
+				font-size: 1.3em;
+				text-align: right;
+				margin-top: 80px;
+				
+				li {
+					border-bottom:1px solid rgba( white, 0.45 );
+					list-style: none;
+					padding: 20px 0;
+
+					a {
+						color: white;
+						display: block;
+						padding: 0 15px;
+					}
+
+					&:last-child {
+						border-bottom: none;
+					}
+				}
+
+				// li:active{
+				// 	font-family: 'Gotham';
+				// }
+			}
+		}
+	}
+}
