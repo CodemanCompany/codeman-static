@@ -1,6 +1,6 @@
 {
   "name": "codeman-static",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,11 +17,10 @@
   },
   "homepage": "https://github.com/CodemanCompany/codeman-static#readme",
   "dependencies": {
-    "@fancyapps/fancybox": "^3.5.7",
-    "angular": "^1.7.9",
-    "animate.css": "^4.1.0",
-    "bootstrap": "^5.1.0",
+    "@fancyapps/ui": "^4.0.29",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.0",
     "jquery": "^3.6.0",
-    "sweetalert2": "^11.1.4"
+    "sweetalert2": "^11.4.24"
   }
 }

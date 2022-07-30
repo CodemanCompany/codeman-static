@@ -1,0 +1,55 @@
+@media #{$desktop-large},
+#{$desktop},
+#{$tablet},
+#{$phone} {
+	body > footer { 
+		.border_right{
+			border-right: white;
+			border-right-style: solid;
+			border-right-width: thin;
+		}
+		.border_right2{
+			border-right: white;
+			border-right-style: solid;
+			border-right-width: thin;
+		}
+		.light_gray{
+			p{
+				padding: 10px 0px;
+				margin-bottom: 0px;
+			}
+			background-color: #383838ed;
+			color: white;
+		}
+		.strong_gray{
+			h4{
+				color: #f56691;
+			}
+			background-color: #000000e8;
+			color: white;
+		}
+
+	}
+}
+
+
+@media #{$phone}{
+	.border_right2{
+		border-right-style: none !important;
+	}
+	
+	h4{
+		font-size: 18px;
+	}
+	ul{
+		padding-left: 7px;
+	}
+	li{
+		font-size: 10px;
+		margin-bottom: 6px;
+	}
+	a{
+		color: white !important;
+		font-size: 14px !important;
+	}
+}
