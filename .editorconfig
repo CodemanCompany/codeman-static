@@ -1,0 +1,9 @@
+# 4 space indentation
+[*]
+indent_style = tab
+indent_size = 4
+
+# Only use spaces to indent your .yml configuration.
+[*.yml]
+indent_style = space
+indent_size = 4
