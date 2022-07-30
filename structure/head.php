@@ -12,11 +12,9 @@
 <meta property="og:url" content="" />
 
 <!-- Styles -->
-<link href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" rel="stylesheet" type="text/css" />
 <link href="/css/styles.min.css" rel="stylesheet" />
 
 <link href="/node_modules/animate.css/animate.min.css" rel="stylesheet" />
-<!-- <link href="/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet" /> -->
 
 <!-- Favicon -->
 <link href="/img/favicon.png" rel="shortcut icon" />
